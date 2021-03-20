@@ -169,8 +169,8 @@ $(document).ready(function(){
 		if($("#site-type").length) {
         $(".typewrite span").typed({
             strings: ["ANALÓGICAS ", "PARA TI "],
-            typeSpeed: 100,
-            backDelay: 500,
+            typeSpeed: 200,
+            backDelay: 1000,
             loop: false,
             contentType: 'html', // or text
             // defaults to false for infinite loop
