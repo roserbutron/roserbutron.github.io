@@ -266,7 +266,7 @@ ul.header-nav{
   float:left;
 }
 @font-face {
-    font-family: "../fonts/RoserFontMays-Regular.ttf";
+    font-family: "../fonts/RoserFontMays-Regular";
     src: url('../assets/fonts/font.ttf');
 }
 header .logo > a{
