@@ -264,19 +264,20 @@ header a{
 ul.header-nav{
   width:60%;
   float:left;
-}
+}	
 @font-face {
-    font-family: "../fonts/RoserFontMays-Regular";
-    src: url('../assets/fonts/font.ttf');
+    font-family: RoserFontMays-Regular;
+    src: url("../fonts/RoserFontMays-Regular.ttf");
 }
 header .logo > a{
-  font-family:  ; "../fonts/RoserFontMays-Regular";
+ font-family:  RoserFontMays-Regular;
   font-size:23px;
   font-weight:800;
   float:left;
   line-height:80px;
   padding-right:40px;
   border-bottom: 1px solid #f1f1f1;
+}
 }
 
 header .logo > a:hover{
