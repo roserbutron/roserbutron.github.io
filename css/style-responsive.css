@@ -333,6 +333,10 @@
   }  
   
   #footer-left{text-align:center;}
+
+  .content .text-intro{
+  margin-top: 200px;
+}
   
   .content .text-intro h1{
     font-size:33px; 
