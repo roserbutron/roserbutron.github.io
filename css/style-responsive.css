@@ -339,6 +339,9 @@
     line-height:50px;
   }
 
+  header .logo > a{
+  font-size:60px;}
+
   /*
   **************************
   Portfolio Grid
