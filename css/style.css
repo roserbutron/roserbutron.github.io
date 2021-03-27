@@ -519,6 +519,13 @@ li.grid-item{
   padding:15px;
 }
 
+li.grid-item-solo-images{
+  width:600px;
+  position:relative;
+  float:left;
+  padding:15px;
+}
+
 .grid-hover{
   position: absolute;
   width:360px;
