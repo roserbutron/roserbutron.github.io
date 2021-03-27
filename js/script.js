@@ -170,6 +170,7 @@ $(document).ready(function(){
         $(".typewrite span").typed({
             strings: ["ANALÓGICAS ", "PARA TI "],
             typeSpeed: 100,
+            startDelay: 1000,
             backDelay: 500,
             loop: false,
             contentType: 'html', // or text
