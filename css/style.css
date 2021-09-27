@@ -508,12 +508,12 @@ PORTFOLIO GRID
 
 #portfolio-sidebar{
   width: 780px !important;
-  padding-right: 300px;
+  padding-right: 390px;
 
 }
 
 li.grid-item{
-  width:360px;
+  width:350px;
   position:relative;
   float:left;
   padding:15px;
@@ -528,7 +528,7 @@ li.grid-item-solo-images{
 
 .grid-hover{
   position: absolute;
-  width:360px;
+  width:350px;
   height: 100%;
   top:0;
   background: white;
@@ -569,7 +569,7 @@ li.grid-item-solo-images{
 }
 
 li.grid-item img{
-  width:360px;
+  width:350px;
 }
 
 /*
