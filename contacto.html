@@ -1,45 +1,45 @@
 <!doctype html>
 
-<html lang="en">
-<head>
+  <html lang="en">
+  <head>
 
-  <meta charset="utf-8">
-  <title>Roser Butrón - Portfolio</title>
-  <meta name="description" content="Roser Butrón Isern Portfolio">
-  <meta name="keywords" content="roser, butron, isern, portfolio">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="author" content="roserbutron.github.io">
-  <link rel="icon" type="image/png" href="img/pegatina2.png" />
+    <meta charset="utf-8">
+    <title>Roser Butrón - Portfolio</title>
+    <meta name="description" content="Roser Butrón Isern Portfolio">
+    <meta name="keywords" content="roser, butron, isern, portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="roserbutron.github.io">
+    <link rel="icon" type="image/png" href="img/pegatina2.png" />
 
-<!--Style-->
+    <!--Style-->
 
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/style-responsive.css">  
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-responsive.css">  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
-  
+<![endif]-->
+
 </head>
 
 <body>
 
-<!--Preloader-->
+  <!--Preloader-->
 
-<div class="preloader" id="preloader">
+  <div class="preloader" id="preloader">
     <div class="item">
       <div class="spinner">
       </div>
     </div>
-</div>
+  </div>
 
-<div class="opacity-nav">
+  <div class="opacity-nav">
 
-        <div class="menu-index" id="buttons" style="z-index:999999">
-        <i class="fa  fa-close"></i>
-        </div>
+    <div class="menu-index" id="buttons" style="z-index:999999">
+      <i class="fa  fa-close"></i>
+    </div>
 
     <ul class="menu-fullscreen">
       <li><a class="ajax-link" href="inicio.html">Inicio</a></li>
@@ -47,17 +47,17 @@
       <li><a class="ajax-link" href="contacto.html">Contacto</a></li>
     </ul>
 
-</div>
+  </div>
 
 
   <!--Header-->
   <header id="fullscreen">
-    
-     <div class="logo" id="full"><a class="ajax-link" href="inicio.html">ROSER BUTRÓN ISERN<img src="img/title_logo.png" width="auto" height="80"></a>
-      
-        <div class="menu-index" id="button">
-        <i class="fa fa-bars"></i>
-        </div>
+
+   <div class="logo" id="full"><a class="ajax-link" href="inicio.html">ROSER BUTRÓN ISERN<img src="img/title_logo.png" width="auto" height="80"></a>
+
+    <div class="menu-index" id="button">
+      <i class="fa fa-bars"></i>
+    </div>
 
   </header>
 
@@ -67,30 +67,43 @@
 
   <div class="content" id="ajax-content">
 
-        <div class="text-intro">
+    <div class="text-intro">
 
-          <h1>Contacto</h1>
-          <p>Para contactarme sobre cualquier cosa, escribe aquí y te responderé lo antes posible!</p>
+      <h1>Contacto</h1>
+      <p>Para contactarme sobre cualquier cosa, ¡escribe aquí y te responderé lo antes posible!</p>
 
-          <a href="roserbutron@gmail.com" style="font-size: 20pt;font-weight: bold">roserbutron@gmail.com</a>
-          
-          
-        </div>
-        
-  <br/><br/><br/><br/><br/><br/><br/><br/>      
+
+      <form action="mailto:roserbutron@gmail.com"
+      method="POST"
+      enctype="multipart/form-data"
+      name="EmailForm">
+      Nombre:<br>
+      <input type="text" size="19" name="Contact-Name"><br><br>
+      Email:<br>
+      <input type="email" name="Contact-Email"><br><br> 
+      Mensaje:<br> 
+      <textarea name="Contact-Message" rows="6″ cols="20″>
+      </textarea><br><br> 
+      <button type="submit" value="Submit">ENVIAR</button>
+    </form>
+
+
   </div>
 
+  <br/><br/><br/><br/><br/><br/><br/><br/>      
+</div>
 
 
 
-  <!--Home Sidebar-->
+
+<!--Home Sidebar-->
 
 <div id="ajax-sidebar"></div>
 
 
 
-  <!--Footer-->
-  <footer>
+<!--Footer-->
+<footer>
 
   <div class="footer-margin">
     <div class="social-footer">
@@ -110,23 +123,23 @@
 
 <!--Scripts-->
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/jquery.easing.min.js"></script>
-  <script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
-  <script src="js/jquery.waitforimages.js" type="text/javascript"></script>
-  <script src="js/typed.js" type="text/javascript"></script>
-  <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
-  <script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
-  <script src="js/jquery.jkit.1.2.16.min.js"></script>
- 
-  <script src="js/script.js" type="text/javascript"></script>
-  
-  <script>
-    $('#button, #buttons').on('click', function() {
-      $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.easing.min.js"></script>
+<script src="js/modernizr.custom.42534.js" type="text/javascript"></script>
+<script src="js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="js/typed.js" type="text/javascript"></script>
+<script src="js/masonry.pkgd.min.js" type="text/javascript"></script>  
+<script src="js/imagesloaded.pkgd.min.js" type="text/javascript"></script>    
+<script src="js/jquery.jkit.1.2.16.min.js"></script>
+
+<script src="js/script.js" type="text/javascript"></script>
+
+<script>
+  $('#button, #buttons').on('click', function() {
+    $( ".opacity-nav" ).fadeToggle( "slow", "linear" );
     // Animation complete.
-    });
-  </script>
+  });
+</script>
 
 
 </body>
