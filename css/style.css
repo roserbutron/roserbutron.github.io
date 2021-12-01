@@ -207,7 +207,7 @@ ul.social-icon a{
   float:right;
   font-size:15px;
   border-bottom:0;
-  color:black;
+  color:#d3c2b2;
   padding-right:0px !important;
 }
 
@@ -624,7 +624,7 @@ footer{
 }
 
 .footer-margin .social-footer a:hover{
-  color:#white;
+  color:#c3c3c3;
 }
 
 
