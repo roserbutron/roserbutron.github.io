@@ -600,7 +600,7 @@ footer{
 #footer-left{text-align:left;}
 
 .footer-margin .copyright{
-  color: #686868;
+  color: #white;
   letter-spacing: 1px;
   font-size: 12px;
   width: 100%;
@@ -609,7 +609,7 @@ footer{
 }
 
 .footer-margin .social-footer{
-  color: #686868;
+  color: #white;
   letter-spacing: 1px;
   font-size: 13px;
   width: 100%;
@@ -619,12 +619,12 @@ footer{
 
 .footer-margin .social-footer a{
   font-size:15px;
-  color:black;
+  color:white;
   padding: 20px;
 }
 
 .footer-margin .social-footer a:hover{
-  color:#c3c3c3;
+  color:#white;
 }
 
 
