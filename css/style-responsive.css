@@ -281,6 +281,9 @@
     width:280px;
   }
 
+  .text a{
+    display: none;
+  }
   .content .text-intro{
     width:280px;
   }
