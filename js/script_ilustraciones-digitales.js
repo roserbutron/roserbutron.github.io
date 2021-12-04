@@ -7,19 +7,11 @@ function foto(nombre, titulo, subtitulo, link) {
 
 let listaFotos = []
 
-
-listaFotos.push(new foto('lirio.png', 'Lirio', 'Digtal', '#'));
-listaFotos.push(new foto('naranjo.png', 'Naranjo', 'Digtal', '#'));
+                                                                    //3a
+listaFotos.push(new foto('lirio.png', 'Lirio', 'Digtal', '#'));     //2a
+listaFotos.push(new foto('naranjo.png', 'Naranjo', 'Digtal', '#')); //1a
 //...
 addPhotosToList('ilustracion-digital', listaFotos)
-
-listaFotos = []
-listaFotos.push(new foto('magnolia.png', 'Magnolia', 'Digtal', '#'));
-listaFotos.push(new foto('lirio.png', 'Lirio', 'Digtal', '#'));
-listaFotos.push(new foto('naranjo.png', 'Naranjo', 'Digtal', '#'));
-//....
-addPhotosToList('pegatinas', listaFotos)
-
 
 listaFotos = []
 listaFotos.push(new foto('magnolia.png', 'Magnolia', 'Digtal', '#'));
@@ -43,14 +35,14 @@ const imageslist = ['boletus.png', 'calabazas.png',
 function addPhotosToList(listName, listaFotos) {
     if (document.getElementById(listName) != undefined)
         listaFotos.forEach(function (photo) {
-            document.getElementById(listName).innerHTML +=
+            document.getElementById(listName).innerHTML =
                 '<li class="grid-item">' +
-                '<img src="img/ilustracion_digial/' + photo.nombre + '">' +
+                '<img src="img/ilustracion_digital/' + photo.nombre + '">' +
                 '<a class="ajax-link" href="' + photo.link + '">' +
                 '<div class="grid-hover">' +
                 '<h1>' + photo.titulo + '</h1>' +
                 '<p>' + photo.subtitulo + '</p>' +
                 '</div>' +
-                '</a></li>;'
+                '</a></li>' + document.getElementById(listName).innerHTML;
         });
 }

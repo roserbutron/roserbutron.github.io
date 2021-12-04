@@ -1,173 +1,173 @@
-$(function() {
+$(function () {
 
 
-/*-------------------------------------------
-Load Page
----------------------------------------------*/
-		
-	$('body').waitForImages({
-		finished: function() {
-				Website();
-				$('body').jKit();
-		},
-		waitForAll: true
-	});
+  /*-------------------------------------------
+  Load Page
+  ---------------------------------------------*/
+
+  $('body').waitForImages({
+    finished: function () {
+      Website();
+      $('body').jKit();
+    },
+    waitForAll: true
+  });
 
 
-/*-------------------------------------------
-Ajax link page transitions
----------------------------------------------*/
+  /*-------------------------------------------
+  Ajax link page transitions
+  ---------------------------------------------*/
 
-	$("a.ajax-link").live("click", function(){
-		$this = $(this);
-		var link = $this.attr('href');
-		var current_url = $(location).attr('href');	
-		
-		if( link != current_url && link != '#' ) { 
-		$.ajax({
-			url:link,
-			processData:true, 
-			dataType:'html', 
-			success:function(data){
-				document.title = $(data).filter('title').text(); 
-				current_url = link;
-        if (typeof history.pushState != 'undefined') history.pushState(data, 'Page', link);
-        
-          setTimeout(function(){						
-          $('#preloader').delay(50).fadeIn(600);
-          $('html, body').delay(1000).animate({ scrollTop:  0  },1000);						
-					
-					setTimeout(function(){
-							
-            $('#ajax-content').html($(data).filter('#ajax-content').html());
-            $('#ajax-sidebar').html($(data).filter('#ajax-sidebar').html());
+  $("a.ajax-link").live("click", function () {
+    $this = $(this);
+    var link = $this.attr('href');
+    var current_url = $(location).attr('href');
 
-						$('body').waitForImages({
-							finished: function() {
-								Website();
-								backLoading();
-								$('.opacity-nav').delay(50).fadeOut(600);
-              },										
-              waitForAll: true
-						});								
-					},1000);
-					},0);
-			}
-		});
+    if (link != current_url && link != '#') {
+      $.ajax({
+        url: link,
+        processData: true,
+        dataType: 'html',
+        success: function (data) {
+          document.title = $(data).filter('title').text();
+          current_url = link;
+          if (typeof history.pushState != 'undefined') history.pushState(data, 'Page', link);
+
+          setTimeout(function () {
+            $('#preloader').delay(50).fadeIn(600);
+            $('html, body').delay(1000).animate({ scrollTop: 0 }, 1000);
+
+            setTimeout(function () {
+
+              $('#ajax-content').html($(data).filter('#ajax-content').html());
+              $('#ajax-sidebar').html($(data).filter('#ajax-sidebar').html());
+
+              $('body').waitForImages({
+                finished: function () {
+                  Website();
+                  backLoading();
+                  $('.opacity-nav').delay(50).fadeOut(600);
+                },
+                waitForAll: true
+              });
+            }, 1000);
+          }, 0);
+        }
+      });
     }
     return false;
-	});
+  });
 
 
-/*-------------------------------------------
-When you click back arrow
----------------------------------------------*/
+  /*-------------------------------------------
+  When you click back arrow
+  ---------------------------------------------*/
 
 
-function backLoading() {  
+  function backLoading() {
     $(window).on("popstate", function () {
-        $('body').fadeOut('slow',function(){
-            location.reload();
-        });
-        $('body').fadeIn();
+      $('body').fadeOut('slow', function () {
+        location.reload();
+      });
+      $('body').fadeIn();
     });
-}   
+  }
 
-/*-------------------------------------------
-Load Page - next Open Site
----------------------------------------------*/
+  /*-------------------------------------------
+  Load Page - next Open Site
+  ---------------------------------------------*/
 
-function Website() {
-		CheckScripts();		
-		Masonry();
-		$('body').jKit();
-		backgroundmenu();
-		setTimeout(function(){
-			$(".preloader").fadeOut(500);							
-		},2000);
-		setTimeout(function(){
-			$('header').fadeIn();							
-		},500);
-}
-
-
-/*-------------------------------------------
-Init and check list scripts
----------------------------------------------*/
-
-function CheckScripts() {
-
-  $(document).ready(function(){
-    preloaderCheck();
-    Typewriting();
-    sidebarhero();
-  });
-
-}
+  function Website() {
+    CheckScripts();
+    Masonry();
+    $('body').jKit();
+    backgroundmenu();
+    setTimeout(function () {
+      $(".preloader").fadeOut(500);
+    }, 2000);
+    setTimeout(function () {
+      $('header').fadeIn();
+    }, 500);
+  }
 
 
-/*-------------------------------------------
-Masonry Check Script
----------------------------------------------*/
+  /*-------------------------------------------
+  Init and check list scripts
+  ---------------------------------------------*/
 
-function Masonry() {
-       var $container = $('.portfolio-grid');
-     
-       $container.imagesLoaded( function(){
-         $container.masonry({
-           itemSelector : 'li'
-         });
-       });
-}
+  function CheckScripts() {
 
+    $(document).ready(function () {
+      preloaderCheck();
+      Typewriting();
+      sidebarhero();
+    });
 
-/*-------------------------------------------
-Multi purpose init Background menu
----------------------------------------------*/
-
-function backgroundmenu() {
-
-  $(document).ready(function(){
-     if($("#header-fade").length) {
-
-         $(window).scroll(function(){
-            if ($(this).scrollTop() > 10) {
-                $('header').fadeOut();
-            } else {
-                $('header').fadeIn();
-            }
-        }); 
-     }
-     
-     if($("#header-white").length) {
-
-         $(window).scroll(function(){
-            if ($(this).scrollTop() > 10) {
-                $('header').css( "background", "white" );
-                $('header .logo > a').css( "borderBottom", "0" );
-
-            } else {
-                $('header').css( "background", "none" );
-            }
-        }); 
-     }
-
-   
-  });
-
-}
-
-/*-------------------------------------------
-Typewriting init script
----------------------------------------------*/
-
-function Typewriting() {
+  }
 
 
-$(document).ready(function(){
-	setTimeout( function(){
-		if($("#site-type").length) {
-        $(".typewrite span").typed({
+  /*-------------------------------------------
+  Masonry Check Script
+  ---------------------------------------------*/
+
+  function Masonry() {
+    var $container = $('.portfolio-grid');
+
+    $container.imagesLoaded(function () {
+      $container.masonry({
+        itemSelector: 'li'
+      });
+    });
+  }
+
+
+  /*-------------------------------------------
+  Multi purpose init Background menu
+  ---------------------------------------------*/
+
+  function backgroundmenu() {
+
+    $(document).ready(function () {
+      if ($("#header-fade").length) {
+
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 10) {
+            $('header').fadeOut();
+          } else {
+            $('header').fadeIn();
+          }
+        });
+      }
+
+      if ($("#header-white").length) {
+
+        $(window).scroll(function () {
+          if ($(this).scrollTop() > 10) {
+            $('header').css("background", "white");
+            $('header .logo > a').css("borderBottom", "0");
+
+          } else {
+            $('header').css("background", "none");
+          }
+        });
+      }
+
+
+    });
+
+  }
+
+  /*-------------------------------------------
+  Typewriting init script
+  ---------------------------------------------*/
+
+  function Typewriting() {
+
+
+    $(document).ready(function () {
+      setTimeout(function () {
+        if ($("#site-type").length) {
+          $(".typewrite span").typed({
             strings: ["ANALÓGICAS ", "PARA TI "],
             typeSpeed: 100,
             startDelay: 1000,
@@ -176,71 +176,121 @@ $(document).ready(function(){
             contentType: 'html', // or text
             // defaults to false for infinite loop
             loopCount: false,
-        });
-    }
-	}, 3000);
-});
-}
-
-
-/*-------------------------------------------
-Amazing Fade with scroll Sidebar
----------------------------------------------*/
-
-function sidebarhero() {
-
-  if($("#hero").length) {
-    var fadeStart=100,fadeUntil=800,fading = $('#hero');
-
-    $(window).bind('scroll', function(){
-        var offset = $(document).scrollTop()
-            ,opacity=0
-        ;
-        if( offset<=fadeStart ){
-            opacity=1;
-        }else if( offset<=fadeUntil ){
-            opacity=1-offset/fadeUntil;
+          });
         }
-        fading.css('opacity',opacity);
+      }, 3000);
     });
-  } 
-}
+  }
 
 
-/*-------------------------------------------
-Open Check Scription
----------------------------------------------*/
+  /*-------------------------------------------
+  Amazing Fade with scroll Sidebar
+  ---------------------------------------------*/
 
-function OpenCheck() {
-    setTimeout(function() {
-        hidePreloader();
+  function sidebarhero() {
+
+    if ($("#hero").length) {
+      var fadeStart = 100, fadeUntil = 800, fading = $('#hero');
+
+      $(window).bind('scroll', function () {
+        var offset = $(document).scrollTop()
+          , opacity = 0
+          ;
+        if (offset <= fadeStart) {
+          opacity = 1;
+        } else if (offset <= fadeUntil) {
+          opacity = 1 - offset / fadeUntil;
+        }
+        fading.css('opacity', opacity);
+      });
+    }
+  }
+
+
+  /*-------------------------------------------
+  Open Check Scription
+  ---------------------------------------------*/
+
+  function OpenCheck() {
+    setTimeout(function () {
+      hidePreloader();
     }, 1000);
-}
+  }
 
 
-/*-------------------------------------------
-Check Preloader
----------------------------------------------*/
+  /*-------------------------------------------
+  Check Preloader
+  ---------------------------------------------*/
 
-function preloaderCheck() {
+  function preloaderCheck() {
     showPreloader();
-    $(window).load(function() {
-        hidePreloader();
+    $(window).load(function () {
+      hidePreloader();
     });
-}
+  }
 
-/*-------------------------------------------
-Functions Show / Hide Preloader
----------------------------------------------*/
+  /*-------------------------------------------
+  Functions Show / Hide Preloader
+  ---------------------------------------------*/
 
-function showPreloader() {
-  $(".preloader").fadeIn("slow");
-}
+  function showPreloader() {
+    $(".preloader").fadeIn("slow");
+  }
 
-function hidePreloader() {
-  $(".preloader").delay(2000).fadeOut("slow");
-}
+  function hidePreloader() {
+    $(".preloader").delay(2000).fadeOut("slow");
+  }
 
 
 
 })//End
+
+//SCRIPTS
+
+function foto(nombre, titulo, subtitulo, link) {
+  this.nombre = nombre;
+  this.titulo = titulo;
+  this.subtitulo = subtitulo;
+  this.link = link;
+}
+
+//------------Ilustracion Digital
+let listaFotos = []
+listaFotos.push(new foto('lirio.png', 'Lirio', 'Digtal', '#'));     //2a
+listaFotos.push(new foto('naranjo.png', 'Naranjo', 'Digtal', '#')); //1a
+addPhotosToList('ilustracion-digital', listaFotos)
+//------------
+
+//------------Postales
+listaFotos = []
+listaFotos.push(new foto('postal_muntanya.png', 'Postal Montaña', 'Postales', '#'));
+listaFotos.push(new foto('postal_feliznavidad.png', 'Postal Navidad', 'Postales', '#'));
+addPhotosToList('postales', listaFotos)
+//------------
+
+
+//------------Pegatinas
+listaFotos = []
+listaFotos.push(new foto('.png', '', '', '#'));
+listaFotos.push(new foto('.png', '', '', '#'));
+addPhotosToList('pegatinas', listaFotos)
+//------------
+
+
+
+
+
+function addPhotosToList(listName, listaFotos) {
+  if (document.getElementById(listName) != undefined)
+    listaFotos.forEach(function (photo) {
+      document.getElementById(listName).innerHTML =
+        '<li class="grid-item">' +
+        '<img src="img/' + listName + '/' + photo.nombre + '">' +
+        '<a class="ajax-link" href="' + photo.link + '">' +
+        '<div class="grid-hover">' +
+        '<h1>' + photo.titulo + '</h1>' +
+        '<p>' + photo.subtitulo + '</p>' +
+        '</div>' +
+        '</a></li>' + document.getElementById(listName).innerHTML;
+    });
+}
