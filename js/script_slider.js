@@ -48,8 +48,8 @@ var swipe = new Hammer.Swipe();
 mc.add(swipe);
 mc.on("swipeleft swiperight", function (ev) {
   if (ev.type == 'swipeleft') {
-    plusSlides(-1)
-  } else if (ev.type == 'swiperight') {
     plusSlides(1)
+  } else if (ev.type == 'swiperight') {
+    plusSlides(-1)
   }
 });

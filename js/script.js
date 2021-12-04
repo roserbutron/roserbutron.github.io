@@ -261,7 +261,7 @@ function loadAll() {
   let listaFotos = []
   listaFotos.push(new foto('lirio.png', 'Lirio', 'Digtal', '#'));     //2a
   listaFotos.push(new foto('naranjo.png', 'Naranjo', 'Digtal', '#')); //1a
-  addPhotosToList('ilustracion-digital', listaFotos)
+  addPhotosToList('ilustracion_digital', listaFotos)
   //------------
 
   //------------Postales
