@@ -177,6 +177,7 @@ HEADER
 */
 .ajax-link{
   width: 100%;
+  margin: 50px;
 }
 header.boxed {
   position: fixed;
@@ -582,7 +583,7 @@ li.grid-item {
   width: 350px;
   position: relative;
   float: left;
-  padding: 15px;
+  margin: 15px;
 }
 
 li.grid-item-solo-images {
