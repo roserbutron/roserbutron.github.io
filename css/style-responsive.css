@@ -112,6 +112,7 @@
 
   .content .text-intro{
     width:600px;
+    padding-top: 70px;
   }
 
   .footer-margin{
@@ -174,13 +175,16 @@
   .clear{
   padding-top: 30px;
 }
-
+.text{
+  padding-bottom: 75px;
+}
 
   header.boxed .header-margin{
     width:400px;
   }
 
   .content .text-intro{
+    padding-top: 150px;
     width:400px;
   }
 
@@ -277,6 +281,9 @@
     width:280px;
   }
 
+  .text a{
+    display: none;
+  }
   .content .text-intro{
     width:280px;
   }
@@ -297,6 +304,7 @@
   }
   
   .menu-index{
+    top: 100px;
     display:block !important;
   }
 
