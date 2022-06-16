@@ -259,23 +259,17 @@ function loadAll() {
 
   //------------Ilustracion Digital
   let listaFotos = []
-  listaFotos.push(new foto('lirio.png', 'Lirio', 'Digtal', '#'));     //2a
-  listaFotos.push(new foto('naranjo.png', 'Naranjo', 'Digtal', '#')); //1a
   addPhotosToList('ilustracion_digital', listaFotos)
   //------------
 
   //------------Postales
   listaFotos = []
-  listaFotos.push(new foto('postal_muntanya.png', 'Postal Montaña', 'Postales', '#'));
-  listaFotos.push(new foto('postal_feliznavidad.png', 'Postal Navidad', 'Postales', '#'));
   addPhotosToList('postales', listaFotos)
   //------------
 
 
   //------------Pegatinas
   listaFotos = []
-  listaFotos.push(new foto('.png', '', '', '#'));
-  listaFotos.push(new foto('.png', '', '', '#'));
   addPhotosToList('pegatinas', listaFotos)
   //------------
 
