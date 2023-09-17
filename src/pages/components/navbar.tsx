@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import { FC } from "react";
@@ -14,6 +14,11 @@ const Navbar: FC<NavbarProps> = ({
 	pageActive,
 	setPageActive,
 }) => {
+	useEffect(() => {
+		const current_path = window.location.pathname;
+		setPageActive(current_path);
+	}, []);
+
 	return (
 		<div className="h-initial w-full justify-end flex">
 			<div className="h-full w-full justify-end items-center sm:flex space-y-2 sm:space-y-0 sm:space-x-3 text-center sm:pr-6 text-xl pt-5 sm:pt-0">
