@@ -28,7 +28,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d build -b master",
     "build": "react-scripts build",
     "build:css": "postcss src/index.css -o public/index.css",
     "test": "react-scripts test",
