@@ -1,5 +1,12 @@
 [
 	{
+		"name": "Dandelion",
+		"src": "dandelion.png",
+		"date": "September 2023",
+		"categories": [],
+		"tags": []
+	},
+	{
 		"name": "Blueberry Pot",
 		"src": "blueberrypot.jpeg",
 		"date": "september 2023",
@@ -185,22 +192,14 @@
 		"hidden": "true"
 	},
 	{
-		"name": "Signe Propi (final degree project collaboration)",
-		"src": "signepropi1.jpeg",
+		"name": "Signe Propi",
+		"src": "signepropi2.jpeg",
 		"date": "May-July 2022",
 		"categories": ["project"],
 		"tags": ["Signe Propi"]
 	},
 	{
-		"name": "Signe Propi-frontpage",
-		"src": "signepropi2.jpeg",
-		"date": "May-July 2022",
-		"categories": ["project"],
-		"tags": ["Signe Propi"],
-		"hidden": "true"
-	},
-	{
-		"name": "Signe Propi-illustrations1",
+		"name": "Signe Propi \"illustrations\"",
 		"src": "signepropi3.jpeg",
 		"date": "May-July 2022",
 		"categories": ["project"],
@@ -257,5 +256,44 @@
 		"date": "February 2022",
 		"categories": ["personal work"],
 		"tags": []
+	},
+	{
+		"name": "League of Goose",
+		"src": "log1.png",
+		"date": "April-July 2023",
+		"categories": ["project"],
+		"tags": ["League of Goose"]
+	},
+	{
+		"name": "League of Goose \"Characters\"",
+		"src": "log2.png",
+		"date": "April-July 2023",
+		"categories": ["project"],
+		"tags": ["League of Goose"],
+		"hidden":"true"
+	},
+	{
+		"name": "League of Goose \"Components\"",
+		"src": "log3.png",
+		"date": "April-July 2023",
+		"categories": ["project"],
+		"tags": ["League of Goose"],
+		"hidden":"true"
+	},
+	{
+		"name": "League of Goose \"Background 1\"",
+		"src": "log4.png",
+		"date": "April-July 2023",
+		"categories": ["project"],
+		"tags": ["League of Goose"],
+		"hidden":"true"
+	},
+	{
+		"name": "League of Goose \"Background 2\"",
+		"src": "log5.png",
+		"date": "April-July 2023",
+		"categories": ["project"],
+		"tags": ["League of Goose"],
+		"hidden":"true"
 	}
 ]

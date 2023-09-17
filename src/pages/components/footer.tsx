@@ -43,6 +43,7 @@ const Footer = () => {
 					<div className="w-1/3 z-10 flex items-center text-center">
 						<div
 							className="webkit-center w-full rounded-full bg-white hover:bg-[#FF3F8A] hover:text-white text-black transition duration-200 ease-in-out cursor-pointer"
+							style={{ minHeight: 24 }}
 							onClick={() => {
 								window.location.href =
 									"mailto:roserbutron@gmail.com?subject=Contact from website";
