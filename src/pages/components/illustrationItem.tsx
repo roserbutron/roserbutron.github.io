@@ -26,8 +26,21 @@ const IllustrationItem: React.FC<Props> = ({
 		setShowPreview(false);
 	};
 
+	const handleClick = () => {
+		if (showPreview) return;
+
+		if (tags.length > 0 && selectedCollection === "") {
+			setSelectedCollection(tags[0]);
+		} else {
+			handlePreviewClick();
+		}
+	};
+
 	return (
-		<div className="grid place-content-center mb-8 relative">
+		<div
+			className="grid place-content-center mb-8 relative cursor-pointer"
+			onClick={handleClick}
+		>
 			{tags.length > 0 &&
 				selectedCollection === "" &&
 				!categories.includes("project") && (
@@ -44,13 +57,6 @@ const IllustrationItem: React.FC<Props> = ({
 				className="rounded-lg"
 				src={require(`../../assets/illustrations/${src}`)}
 				alt={`${name} illustration`}
-				onClick={() => {
-					if (tags.length > 0 && selectedCollection === "") {
-						setSelectedCollection(tags[0]);
-					} else {
-						handlePreviewClick();
-					}
-				}}
 			/>
 			{selectedCollection === "" && (
 				<div className="mt-3">
