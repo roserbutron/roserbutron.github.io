@@ -1,9 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.ee091e06.css",
-    "main.js": "/static/js/main.bdbadde9.js",
+    "main.css": "/static/css/main.fe55c787.css",
+    "main.js": "/static/js/main.aad2e432.js",
     "static/js/787.9b0e2cf3.chunk.js": "/static/js/787.9b0e2cf3.chunk.js",
+    "static/media/log1.png": "/static/media/log1.badc745fcf0caa5e4f05.png",
+    "static/media/log4.png": "/static/media/log4.8a5428c2f8422d90c2f6.png",
+    "static/media/log2.png": "/static/media/log2.15031abd9b6a76d2c0fd.png",
+    "static/media/log5.png": "/static/media/log5.e0968bbb9ea8266b6e3a.png",
+    "static/media/log3.png": "/static/media/log3.0625d6695a2ed8090556.png",
     "static/media/mail_icon.png": "/static/media/mail_icon.8307ccb1eabb250bfa93.png",
+    "static/media/dandelion.png": "/static/media/dandelion.2865110a677ec158233b.png",
     "static/media/snowymountains.jpeg": "/static/media/snowymountains.e650b89f639a0a909d11.jpeg",
     "static/media/amapolas.jpeg": "/static/media/amapolas.c547b1a81945d7a8e59c.jpeg",
     "static/media/peaches.jpeg": "/static/media/peaches.bc14da614aa8d580fe15.jpeg",
@@ -20,6 +26,7 @@
     "static/media/magnolia.jpeg": "/static/media/magnolia.36e1782f91a38d76bd9e.jpeg",
     "static/media/roser.png": "/static/media/roser.b503518be7edee94624a.png",
     "static/media/lirio.jpeg": "/static/media/lirio.f563bf4ffb4c5ff9e821.jpeg",
+    "static/media/log_main.png": "/static/media/log_main.c3bb6bb0b1f7b50703de.png",
     "static/media/garden.jpeg": "/static/media/garden.c5c6f7ff4c505ef8f09e.jpeg",
     "static/media/forest.jpeg": "/static/media/forest.c08d1a33f805353c0672.jpeg",
     "static/media/tangled5.jpeg": "/static/media/tangled5.a29f6bdda26d510c649c.jpeg",
@@ -46,12 +53,12 @@
     "static/media/flowerpot2.jpeg": "/static/media/flowerpot2.e5142855ed68f0985148.jpeg",
     "static/media/footer.png": "/static/media/footer.c6edfd7d066e6b07e783.png",
     "index.html": "/index.html",
-    "main.ee091e06.css.map": "/static/css/main.ee091e06.css.map",
-    "main.bdbadde9.js.map": "/static/js/main.bdbadde9.js.map",
+    "main.fe55c787.css.map": "/static/css/main.fe55c787.css.map",
+    "main.aad2e432.js.map": "/static/js/main.aad2e432.js.map",
     "787.9b0e2cf3.chunk.js.map": "/static/js/787.9b0e2cf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee091e06.css",
-    "static/js/main.bdbadde9.js"
+    "static/css/main.fe55c787.css",
+    "static/js/main.aad2e432.js"
   ]
 }
