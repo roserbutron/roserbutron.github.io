@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c146286.css",
-    "main.js": "/static/js/main.0d279f1d.js",
+    "main.css": "/static/css/main.ee091e06.css",
+    "main.js": "/static/js/main.bdbadde9.js",
     "static/js/787.9b0e2cf3.chunk.js": "/static/js/787.9b0e2cf3.chunk.js",
     "static/media/mail_icon.png": "/static/media/mail_icon.8307ccb1eabb250bfa93.png",
     "static/media/snowymountains.jpeg": "/static/media/snowymountains.e650b89f639a0a909d11.jpeg",
@@ -18,6 +18,7 @@
     "static/media/iridescent.jpeg": "/static/media/iridescent.4e3124490074cae05c36.jpeg",
     "static/media/colors.jpeg": "/static/media/colors.1debb5aa425af6d40838.jpeg",
     "static/media/magnolia.jpeg": "/static/media/magnolia.36e1782f91a38d76bd9e.jpeg",
+    "static/media/roser.png": "/static/media/roser.b503518be7edee94624a.png",
     "static/media/lirio.jpeg": "/static/media/lirio.f563bf4ffb4c5ff9e821.jpeg",
     "static/media/garden.jpeg": "/static/media/garden.c5c6f7ff4c505ef8f09e.jpeg",
     "static/media/forest.jpeg": "/static/media/forest.c08d1a33f805353c0672.jpeg",
@@ -45,12 +46,12 @@
     "static/media/flowerpot2.jpeg": "/static/media/flowerpot2.e5142855ed68f0985148.jpeg",
     "static/media/footer.png": "/static/media/footer.c6edfd7d066e6b07e783.png",
     "index.html": "/index.html",
-    "main.7c146286.css.map": "/static/css/main.7c146286.css.map",
-    "main.0d279f1d.js.map": "/static/js/main.0d279f1d.js.map",
+    "main.ee091e06.css.map": "/static/css/main.ee091e06.css.map",
+    "main.bdbadde9.js.map": "/static/js/main.bdbadde9.js.map",
     "787.9b0e2cf3.chunk.js.map": "/static/js/787.9b0e2cf3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c146286.css",
-    "static/js/main.0d279f1d.js"
+    "static/css/main.ee091e06.css",
+    "static/js/main.bdbadde9.js"
   ]
 }
