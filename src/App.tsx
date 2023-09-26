@@ -1,4 +1,6 @@
-import { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import AboutPage from "./pages/about";
 import Footer from "./pages/components/footer";
@@ -7,6 +9,10 @@ import ContactPage from "./pages/contact";
 import HomePage from "./pages/home";
 
 const App = () => {
+	useEffect(() => {
+		AOS.init();
+	}, []);
+
 	const [currentAction, setCurrentAction] = useState<string>("");
 
 	const callbackAction = (action: string) => {

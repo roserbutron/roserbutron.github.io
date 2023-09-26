@@ -38,6 +38,7 @@ const IllustrationItem: React.FC<Props> = ({
 
 	return (
 		<div
+			data-aos={`fade-up`}
 			className="grid place-content-center mb-8 relative cursor-pointer"
 			onClick={handleClick}
 		>
