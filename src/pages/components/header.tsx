@@ -17,10 +17,10 @@ const Header = ({ callbackAction }: HeaderProps): ReactElement => {
 		navigate("/");
 	};
 	return (
-		<div className="flex h-1/5 w-full mb-8 max-w-[1420px] m-auto">
+		<div className="block md:flex h-1/5 w-full mb-8 max-w-[1420px] m-auto">
 			<div className="sm:max-w-[500px] h-auto">
 				<img
-					className="w-full h-full pt-2 pl-8 object-contain"
+					className="w-full h-full md:pt-2 md:pl-8 object-contain px-6 pt-4"
 					src={require("../../assets/logo.png")}
 					alt="logo"
 					onClick={handleLogoClick}

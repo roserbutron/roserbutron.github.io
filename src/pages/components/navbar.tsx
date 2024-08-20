@@ -21,7 +21,7 @@ const Navbar: FC<NavbarProps> = ({
 
 	return (
 		<div className="h-initial w-full justify-end flex">
-			<div className="h-full w-full justify-end items-center sm:flex space-y-2 sm:space-y-0 sm:space-x-3 text-center sm:pr-6 text-xl pt-5 sm:pt-0">
+			<div className="h-full w-full justify-center md:justify-end items-center flex sm:space-y-0 sm:space-x-3 text-center sm:pr-6 text-xl pt-5 sm:pt-0">
 				<div>
 					<Link
 						className={`${
