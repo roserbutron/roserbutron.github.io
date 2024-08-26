@@ -48,7 +48,7 @@ const ImagePreview: React.FC<Props> = ({
 				<img
 					src={require(`../../assets/illustrations/${src}`)}
 					alt="Preview"
-					className="max-w-full max-h-full object-contain"
+					className="max-w-full h-[55vh] md:h-[120vh] object-contain"
 					onLoad={() => {
 						ref.current?.classList.add("scale-100");
 					}}
