@@ -21,8 +21,6 @@ const IllustrationGrid: React.FC<Props> = ({
     768: 1,
   };
 
-  const handleChange = () => {};
-
   return (
     <>
       <Masonry
