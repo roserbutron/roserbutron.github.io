@@ -39,7 +39,7 @@ const IllustrationItem: React.FC<Props> = ({
 	return (
 		<div
 			data-aos={`fade-up`}
-			className="grid place-content-center mb-8 relative cursor-pointer"
+			className="grid place-content-center mb-8 relative cursor-pointer px-2 pt-2 bg-[#f5efe1] rounded-2xl shadow-md mx-3 md:mx-2"
 			onClick={handleClick}
 		>
 			{tags.length > 0 &&
@@ -59,26 +59,28 @@ const IllustrationItem: React.FC<Props> = ({
 				src={require(`../../assets/illustrations/${src}`)}
 				alt={`${name} illustration`}
 			/>
-			{selectedCollection === "" && (
-				<div className="mt-3">
-					{tags.map((tag) => (
-						<div
-							key={tag}
-							className="inline-block bg-gray-200 text-gray-700 rounded-full px-2 mr-2 cursor-pointer"
-							onClick={() => {
-								setSelectedCollection(tag);
-							}}
-						>
-							{tag}
-						</div>
-					))}
+			<div className="flex flex-row w-full justify-between bg-[#f4f0e9] rounded-xl pb-2 mb-2">
+				<div className="block mt-2 h-full">
+					<div className="pl-2">{name}</div>
+					<div className="pl-2 text-sm opacity-50 capitalize">
+						{date}
+					</div>
 				</div>
-			)}
-			<div className={selectedCollection !== "" ? "mt-2" : ""}>
-				<div className="pl-2 lg:pl-0">{name}</div>
-				<div className="pl-2 lg:pl-0 text-sm opacity-50 capitalize">
-					{date}
-				</div>
+				{selectedCollection === "" && (
+					<div className="my-2 h-full content-center">
+						{tags.map((tag) => (
+							<div
+								key={tag}
+								className="inline-block bg-[#928b8b] text-[#ffffff] hover:bg-[#817676] rounded-full py-[2px] px-2 mr-2 cursor-pointer transition-colors"
+								onClick={() => {
+									setSelectedCollection(tag);
+								}}
+							>
+								{tag}
+							</div>
+						))}
+					</div>
+				)}
 			</div>
 			<div className="hidden">
 				{categories.map((category) => (

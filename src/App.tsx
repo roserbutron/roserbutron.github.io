@@ -10,7 +10,10 @@ import HomePage from "./pages/home";
 
 const App = () => {
 	useEffect(() => {
-		AOS.init();
+		AOS.init({
+			offset: -5,
+			duration: 1000,
+		});
 	}, []);
 
 	const [currentAction, setCurrentAction] = useState<string>("");

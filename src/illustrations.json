@@ -1,406 +1,405 @@
-[	
+[
+  {
+    "name": "Caracol",
+    "src": "09.24-caracol.PNG",
+    "date": "September 2024",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Pink",
+    "src": "08.24-risograph1.PNG",
+    "date": "September 2024",
+    "categories": ["personal work", "collections"],
+    "tags": ["Risograph Collection"]
+  },
+  {
+    "name": "Blue",
+    "src": "08.24-risograph2.PNG",
+    "date": "September 2024",
+    "categories": ["personal work", "collections"],
+    "tags": ["Risograph Collection"],
+    "hidden": "true"
+  },
+  {
+    "name": "Green",
+    "src": "08.24-risograph3.PNG",
+    "date": "September 2024",
+    "categories": ["personal work", "collections"],
+    "tags": ["Risograph Collection"],
+    "hidden": "true"
+  },
+  {
+    "name": "Floral Harmony",
+    "src": "08.24-pattern.PNG",
+    "date": "August 2024",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Froggy",
+    "src": "11.23-froggy.png",
+    "date": "July 2024",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Forest Cottage",
+    "src": "08.24-forest cottage.PNG",
+    "date": "June 2024",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
 
-	{
-		"name": "Caracol",
-		"src": "09.24-caracol.PNG",
-		"date": "September 2024",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-	"name": "Risograph \"Pink\"",
-	"src": "08.24-risograph1.PNG",
-	"date": "September 2024",
-	"categories": ["personal work"],
-	"tags": ["Risograph Collection"]	
-	},
-	{
-		"name": "Risograph \"Blue\"",
-		"src": "08.24-risograph2.PNG",
-		"date": "September 2024",
-		"categories": ["personal work"],
-		"tags": ["Risograph Collection"],
-		"hidden": "true"
-	},
-	{
-		"name": "Risograph \"Green\"",
-		"src": "08.24-risograph3.PNG",
-		"date": "September 2024",
-		"categories": ["personal work"],
-		"tags": ["Risograph Collection"],
-		"hidden": "true"
-	},
-	{
-		"name": "Floral Harmony",
-		"src": "08.24-pattern.PNG",
-		"date": "August 2024",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Froggy",
-		"src": "11.23-froggy.png",
-		"date": "July 2024",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Forest Cottage",
-		"src": "08.24-forest cottage.PNG",
-		"date": "June 2024",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	
-	{
-		"name": "Paper Flower Pot",
-		"src": "03.24-paper.png",
-		"date": "March 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
+  {
+    "name": "Paper Flower Pot",
+    "src": "03.24-paper.png",
+    "date": "March 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
 
-	{
-		"name": "Dandelion",
-		"src": "dandelion.png",
-		"date": "March 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Sparkling",
-		"src": "08.24-sparkling.png",
-		"date": "February 2024",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Blueberry Pot",
-		"src": "blueberrypot.jpeg",
-		"date": "September 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Garden",
-		"src": "garden.jpeg",
-		"date": "september 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Vintage Flowers",
-		"src": "vintageflower.jpeg",
-		"date": "August 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Orange Glass Vase",
-		"src": "orangeglass.jpeg",
-		"date": "March 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Rose",
-		"src": "rose.jpeg",
-		"date": "February 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Flower Pots \"Bublé\"",
-		"src": "flowerpot1.jpeg",
-		"date": "February 2023",
-		"categories": ["personal work"],
-		"tags": ["Flower Pots Collection"]
-	},
-	{
-		"name": "Flower Pots \"Bell\"",
-		"src": "flowerpot2.jpeg",
-		"date": "February 2023",
-		"categories": ["personal work"],
-		"tags": ["Flower Pots Collection"],
-		"hidden": "true"
-	},
-	{
-		"name": "Flower Pots \"SunFlower\"",
-		"src": "flowerpot3.jpeg",
-		"date": "February 2023",
-		"categories": ["personal work"],
-		"tags": ["Flower Pots Collection"],
-		"hidden": "true"
-	},
-	{
-		"name": "Windows \"Rainy\"",
-		"src": "rainywindow.jpeg",
-		"date": "January 2023",
-		"categories": ["personal work"],
-		"tags": ["Windows"],
-		"hidden": "true"
-	},
-	{
-		"name": "Windows \"Kitchen\"",
-		"src": "kitchenwindow.jpeg",
-		"date": "January 2023",
-		"categories": ["personal work"],
-		"tags": ["Windows"]
-	},
-	{
-		"name": "Peaches",
-		"src": "peaches.jpeg",
-		"date": "January 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Iridescent",
-		"src": "iridescent.jpeg",
-		"date": "January 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Colors",
-		"src": "colors.jpeg",
-		"date": "January 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Ephemera",
-		"src": "ephemera.jpeg",
-		"date": "January 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Tangled Flowers \"Sun\"",
-		"src": "tangled1.jpeg",
-		"date": "september 2022-January 2023",
-		"categories": ["personal work"],
-		"tags": ["Tangled Flowers"]
-	},
-	{
-		"name": "Tangled Flowers \"Summer\"",
-		"src": "tangled2.jpeg",
-		"date": "september 2022-January 2023",
-		"categories": ["personal work"],
-		"tags": ["Tangled Flowers"],
-		"hidden": "true"
-	},
-	{
-		"name": "Tangled Flowers \"Autumn\"",
-		"src": "tangled3.jpeg",
-		"date": "september 2022-January 2023",
-		"categories": ["personal work"],
-		"tags": ["Tangled Flowers"],
-		"hidden": "true"
-	},
-	{
-		"name": "Tangled Flowers \"Halloween\"",
-		"src": "tangled4.jpeg",
-		"date": "september 2022-January 2023",
-		"categories": ["personal work"],
-		"tags": ["Tangled Flowers"],
-		"hidden": "true"
-	},
-	{
-		"name": "Tangled Flowers \"Spooky\"",
-		"src": "tangled5.jpeg",
-		"date": "september 2022-January 2023",
-		"categories": ["personal work"],
-		"tags": ["Tangled Flowers"],
-		"hidden": "true"
-	},
-	{
-		"name": "Tangled Flowers \"Fresh\"",
-		"src": "tangled6.jpeg",
-		"date": "september 2022-January 2023",
-		"categories": ["personal work"],
-		"tags": ["Tangled Flowers"],
-		"hidden": "true"
-	},
-	{
-		"name": "Glass",
-		"src": "glasspot.jpeg",
-		"date": "January 2023",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Autumn Flowers",
-		"src": "floresotoño.jpeg",
-		"date": "December 2022",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Landscapes \"Forest\"",
-		"src": "forest.jpeg",
-		"date": "October 2022",
-		"categories": ["personal work"],
-		"tags": ["Landscapes"]
-	},
-	{
-		"name": "Landscapes \"Sunset\"",
-		"src": "sunset.jpeg",
-		"date": "October 2022",
-		"categories": ["personal work"],
-		"tags": ["Landscapes"],
-		"hidden": "true"
-	},
-	{
-		"name": "Landscapes \"Golden Hour\"",
-		"src": "goldenhour.jpeg",
-		"date": "October 2022",
-		"categories": ["personal work"],
-		"tags": ["Landscapes"],
-		"hidden": "true"
-	},
-	{
-		"name": "Signe Propi",
-		"src": "signepropi2.jpeg",
-		"date": "May-July 2022",
-		"categories": ["project"],
-		"tags": ["Signe Propi"]
-	},
-	{
-		"name": "Signe Propi \"illustrations\"",
-		"src": "signepropi3.jpeg",
-		"date": "May-July 2022",
-		"categories": ["project"],
-		"tags": ["Signe Propi"],
-		"hidden": "true"
-	},
-	{
-		"name": "Amapolas",
-		"src": "amapolas.jpeg",
-		"date": "May 2022",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "Leaves",
-		"src": "leaves.jpeg",
-		"date": "May 2022",
-		"categories": ["watercolor"],
-		"tags": []
-	},
-	{
-		"name": "Snowy Mountains",
-		"src": "snowymountains.jpeg",
-		"date": "February 2022",
-		"categories": ["gouache"],
-		"tags": []
-	},
-	{
-		"name": "Plants Illustrations \" Magnolia grandiflora\"",
-		"src": "magnolia.jpeg",
-		"date": "December 2021",
-		"categories": ["personal work"],
-		"tags": ["Plants Illustrations"]
-	},
-	{
-		"name": "Plants Illustrations \" Lilium candidum\"",
-		"src": "lirio.jpeg",
-		"date": "December 2021",
-		"categories": ["personal work"],
-		"tags": ["Plants Illustrations"],
-		"hidden": "true"
-	},
-	{
-		"name": "Plants Illustrations \" Citrus x sinensis\"",
-		"src": "naranjo.jpeg",
-		"date": "December 2021",
-		"categories": ["personal work"],
-		"tags": ["Plants Illustrations"],
-		"hidden": "true"
-	},
-	{
-		"name": "Lake",
-		"src": "lago.jpeg",
-		"date": "February 2022",
-		"categories": ["personal work"],
-		"tags": []
-	},
-	{
-		"name": "League of Goose",
-		"src": "log1.png",
-		"date": "April-July 2023",
-		"categories": ["project"],
-		"tags": ["League of Goose"]
-	},
-	{
-		"name": "League of Goose \"Characters\"",
-		"src": "log2.png",
-		"date": "April-July 2023",
-		"categories": ["project"],
-		"tags": ["League of Goose"],
-		"hidden":"true"
-	},
-	{
-		"name": "League of Goose \"Components\"",
-		"src": "log3.png",
-		"date": "April-July 2023",
-		"categories": ["project"],
-		"tags": ["League of Goose"],
-		"hidden":"true"
-	},
-	{
-		"name": "League of Goose \"Background 1\"",
-		"src": "log4.png",
-		"date": "April-July 2023",
-		"categories": ["project"],
-		"tags": ["League of Goose"],
-		"hidden":"true"
-	},
-	{
-		"name": "League of Goose \"Background 2\"",
-		"src": "log5.png",
-		"date": "April-July 2023",
-		"categories": ["project"],
-		"tags": ["League of Goose"],
-		"hidden":"true"
-	},
-	{
-		"name": "Filmets",
-		"src": "filmets1.png",
-		"date": "October 2020",
-		"categories": ["project"],
-		"tags": ["Filmets"]
-	},
-	{
-		"name": "Filmets \"Main Poster\"",
-		"src": "filmets2.png",
-		"date": "October 2020",
-		"categories": ["project"],
-		"tags": ["Filmets"],
-		"hidden":"true"
-	},
-	{
-		"name": "Filmets \"Adaptations\"",
-		"src": "filmets3.png",
-		"date": "October 2020",
-		"categories": ["project"],
-		"tags": ["Filmets"],
-		"hidden":"true"
-	},
-	{
-		"name": "Filmets \"Variations 1\"",
-		"src": "filmets4.png",
-		"date": "October 2020",
-		"categories": ["project"],
-		"tags": ["Filmets"],
-		"hidden":"true"
-	},
-	{
-		"name": "Filmets \"Variations 2\"",
-		"src": "filmets5.png",
-		"date": "October 2020",
-		"categories": ["project"],
-		"tags": ["Filmets"],
-		"hidden":"true"
-	}
+  {
+    "name": "Dandelion",
+    "src": "dandelion.png",
+    "date": "March 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Sparkling",
+    "src": "08.24-sparkling.png",
+    "date": "February 2024",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Blueberry Pot",
+    "src": "blueberrypot.jpeg",
+    "date": "September 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Garden",
+    "src": "garden.jpeg",
+    "date": "september 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Vintage Flowers",
+    "src": "vintageflower.jpeg",
+    "date": "August 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Orange Glass Vase",
+    "src": "orangeglass.jpeg",
+    "date": "March 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Rose",
+    "src": "rose.jpeg",
+    "date": "February 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Bublé",
+    "src": "flowerpot1.jpeg",
+    "date": "February 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Flower Pots Collection"]
+  },
+  {
+    "name": "Bell",
+    "src": "flowerpot2.jpeg",
+    "date": "February 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Flower Pots Collection"],
+    "hidden": "true"
+  },
+  {
+    "name": "SunFlower",
+    "src": "flowerpot3.jpeg",
+    "date": "February 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Flower Pots Collection"],
+    "hidden": "true"
+  },
+  {
+    "name": "Rainy",
+    "src": "rainywindow.jpeg",
+    "date": "January 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Windows"],
+    "hidden": "true"
+  },
+  {
+    "name": "Kitchen",
+    "src": "kitchenwindow.jpeg",
+    "date": "January 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Windows"]
+  },
+  {
+    "name": "Peaches",
+    "src": "peaches.jpeg",
+    "date": "January 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Iridescent",
+    "src": "iridescent.jpeg",
+    "date": "January 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Colors",
+    "src": "colors.jpeg",
+    "date": "January 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Ephemera",
+    "src": "ephemera.jpeg",
+    "date": "January 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Sun",
+    "src": "tangled1.jpeg",
+    "date": "september 2022-January 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Tangled Flowers"]
+  },
+  {
+    "name": "Summer",
+    "src": "tangled2.jpeg",
+    "date": "september 2022-January 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Tangled Flowers"],
+    "hidden": "true"
+  },
+  {
+    "name": "Autumn",
+    "src": "tangled3.jpeg",
+    "date": "september 2022-January 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Tangled Flowers"],
+    "hidden": "true"
+  },
+  {
+    "name": "Halloween",
+    "src": "tangled4.jpeg",
+    "date": "september 2022-January 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Tangled Flowers"],
+    "hidden": "true"
+  },
+  {
+    "name": "Spooky",
+    "src": "tangled5.jpeg",
+    "date": "september 2022-January 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Tangled Flowers"],
+    "hidden": "true"
+  },
+  {
+    "name": "Fresh",
+    "src": "tangled6.jpeg",
+    "date": "september 2022-January 2023",
+    "categories": ["personal work", "collections"],
+    "tags": ["Tangled Flowers"],
+    "hidden": "true"
+  },
+  {
+    "name": "Glass",
+    "src": "glasspot.jpeg",
+    "date": "January 2023",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Autumn Flowers",
+    "src": "floresotoño.jpeg",
+    "date": "December 2022",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Forest",
+    "src": "forest.jpeg",
+    "date": "October 2022",
+    "categories": ["personal work", "collections"],
+    "tags": ["Landscapes"]
+  },
+  {
+    "name": "Sunset",
+    "src": "sunset.jpeg",
+    "date": "October 2022",
+    "categories": ["personal work", "collections"],
+    "tags": ["Landscapes"],
+    "hidden": "true"
+  },
+  {
+    "name": "Golden Hour",
+    "src": "goldenhour.jpeg",
+    "date": "October 2022",
+    "categories": ["personal work", "collections"],
+    "tags": ["Landscapes"],
+    "hidden": "true"
+  },
+  {
+    "name": "Signe Propi",
+    "src": "signepropi2.jpeg",
+    "date": "May-July 2022",
+    "categories": ["projects"],
+    "tags": ["Signe Propi"]
+  },
+  {
+    "name": "Signe Propi \"illustrations\"",
+    "src": "signepropi3.jpeg",
+    "date": "May-July 2022",
+    "categories": ["projects"],
+    "tags": ["Signe Propi"],
+    "hidden": "true"
+  },
+  {
+    "name": "Amapolas",
+    "src": "amapolas.jpeg",
+    "date": "May 2022",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Leaves",
+    "src": "leaves.jpeg",
+    "date": "May 2022",
+    "categories": ["personal work", "watercolor", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Snowy Mountains",
+    "src": "snowymountains.jpeg",
+    "date": "February 2022",
+    "categories": ["personal work", "gouache", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "Magnolia Grandiflora",
+    "src": "magnolia.jpeg",
+    "date": "December 2021",
+    "categories": ["personal work", "collections"],
+    "tags": ["Plant Illustrations"]
+  },
+  {
+    "name": "Lilium Candidum",
+    "src": "lirio.jpeg",
+    "date": "December 2021",
+    "categories": ["personal work", "collections"],
+    "tags": ["Plant Illustrations"],
+    "hidden": "true"
+  },
+  {
+    "name": "Citrus x Sinensis",
+    "src": "naranjo.jpeg",
+    "date": "December 2021",
+    "categories": ["personal work", "collections"],
+    "tags": ["Plant Illustrations"],
+    "hidden": "true"
+  },
+  {
+    "name": "Lake",
+    "src": "lago.jpeg",
+    "date": "February 2022",
+    "categories": ["personal work", "illustrations"],
+    "tags": []
+  },
+  {
+    "name": "League of Goose",
+    "src": "log1.png",
+    "date": "April-July 2023",
+    "categories": ["projects"],
+    "tags": ["League of Goose"]
+  },
+  {
+    "name": "League of Goose \"Characters\"",
+    "src": "log2.png",
+    "date": "April-July 2023",
+    "categories": ["projects"],
+    "tags": ["League of Goose"],
+    "hidden": "true"
+  },
+  {
+    "name": "League of Goose \"Components\"",
+    "src": "log3.png",
+    "date": "April-July 2023",
+    "categories": ["projects"],
+    "tags": ["League of Goose"],
+    "hidden": "true"
+  },
+  {
+    "name": "League of Goose \"Background 1\"",
+    "src": "log4.png",
+    "date": "April-July 2023",
+    "categories": ["projects"],
+    "tags": ["League of Goose"],
+    "hidden": "true"
+  },
+  {
+    "name": "League of Goose \"Background 2\"",
+    "src": "log5.png",
+    "date": "April-July 2023",
+    "categories": ["projects"],
+    "tags": ["League of Goose"],
+    "hidden": "true"
+  },
+  {
+    "name": "Filmets",
+    "src": "filmets1.png",
+    "date": "October 2020",
+    "categories": ["projects"],
+    "tags": ["Filmets"]
+  },
+  {
+    "name": "Filmets \"Main Poster\"",
+    "src": "filmets2.png",
+    "date": "October 2020",
+    "categories": ["projects"],
+    "tags": ["Filmets"],
+    "hidden": "true"
+  },
+  {
+    "name": "Filmets \"Adaptations\"",
+    "src": "filmets3.png",
+    "date": "October 2020",
+    "categories": ["projects"],
+    "tags": ["Filmets"],
+    "hidden": "true"
+  },
+  {
+    "name": "Filmets \"Variations 1\"",
+    "src": "filmets4.png",
+    "date": "October 2020",
+    "categories": ["projects"],
+    "tags": ["Filmets"],
+    "hidden": "true"
+  },
+  {
+    "name": "Filmets \"Variations 2\"",
+    "src": "filmets5.png",
+    "date": "October 2020",
+    "categories": ["projects"],
+    "tags": ["Filmets"],
+    "hidden": "true"
+  }
 ]
