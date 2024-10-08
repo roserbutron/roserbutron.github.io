@@ -1,15 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.abe5610c.css",
-    "main.js": "/static/js/main.b56930b8.js",
+    "main.js": "/static/js/main.30fd17ff.js",
     "static/js/787.9b0e2cf3.chunk.js": "/static/js/787.9b0e2cf3.chunk.js",
+    "static/media/09.24-caracol.PNG": "/static/media/09.24-caracol.d66bad424a09381546bc.PNG",
     "static/media/log1.png": "/static/media/log1.badc745fcf0caa5e4f05.png",
+    "static/media/08.24-pattern.PNG": "/static/media/08.24-pattern.462bcc5500f3251366ba.PNG",
     "static/media/log4.png": "/static/media/log4.8a5428c2f8422d90c2f6.png",
     "static/media/log2.png": "/static/media/log2.15031abd9b6a76d2c0fd.png",
     "static/media/log5.png": "/static/media/log5.e0968bbb9ea8266b6e3a.png",
+    "static/media/08.24-risograph3.PNG": "/static/media/08.24-risograph3.2abf15d67beace65e040.PNG",
+    "static/media/03.24-paper.png": "/static/media/03.24-paper.2905afb1ca4fba47d3d3.png",
     "static/media/log3.png": "/static/media/log3.0625d6695a2ed8090556.png",
+    "static/media/08.24-forest cottage.PNG": "/static/media/08.24-forest cottage.4925a63ca5013257ef38.PNG",
+    "static/media/08.24-sparkling.png": "/static/media/08.24-sparkling.eceeb6b5bc4ef04171fa.png",
+    "static/media/08.24-risograph2.PNG": "/static/media/08.24-risograph2.bf294ab88ee471e23747.PNG",
+    "static/media/08.24-risograph1.PNG": "/static/media/08.24-risograph1.a0fb98670becf45aadb5.PNG",
     "static/media/mail_icon.png": "/static/media/mail_icon.8307ccb1eabb250bfa93.png",
     "static/media/filmets4.png": "/static/media/filmets4.7d8d88d9b51ca3151971.png",
+    "static/media/11.23-froggy.png": "/static/media/11.23-froggy.f8bb33fab9eab1c30736.png",
     "static/media/filmets5.png": "/static/media/filmets5.511f071a28380bd19ccf.png",
     "static/media/dandelion.png": "/static/media/dandelion.2865110a677ec158233b.png",
     "static/media/snowymountains.jpeg": "/static/media/snowymountains.e650b89f639a0a909d11.jpeg",
@@ -59,11 +68,11 @@
     "static/media/footer.png": "/static/media/footer.c6edfd7d066e6b07e783.png",
     "index.html": "/index.html",
     "main.abe5610c.css.map": "/static/css/main.abe5610c.css.map",
-    "main.b56930b8.js.map": "/static/js/main.b56930b8.js.map",
+    "main.30fd17ff.js.map": "/static/js/main.30fd17ff.js.map",
     "787.9b0e2cf3.chunk.js.map": "/static/js/787.9b0e2cf3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.abe5610c.css",
-    "static/js/main.b56930b8.js"
+    "static/js/main.30fd17ff.js"
   ]
 }
