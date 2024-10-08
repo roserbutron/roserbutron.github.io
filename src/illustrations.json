@@ -1,15 +1,83 @@
-[
+[	
+
+	{
+		"name": "Caracol",
+		"src": "09.24-caracol.PNG",
+		"date": "September 2024",
+		"categories": ["personal work"],
+		"tags": []
+	},
+	{
+	"name": "Risograph \"Pink\"",
+	"src": "08.24-risograph1.PNG",
+	"date": "September 2024",
+	"categories": ["personal work"],
+	"tags": ["Risograph Collection"]	
+	},
+	{
+		"name": "Risograph \"Blue\"",
+		"src": "08.24-risograph2.PNG",
+		"date": "September 2024",
+		"categories": ["personal work"],
+		"tags": ["Risograph Collection"],
+		"hidden": "true"
+	},
+	{
+		"name": "Risograph \"Green\"",
+		"src": "08.24-risograph3.PNG",
+		"date": "September 2024",
+		"categories": ["personal work"],
+		"tags": ["Risograph Collection"],
+		"hidden": "true"
+	},
+	{
+		"name": "Floral Harmony",
+		"src": "08.24-pattern.PNG",
+		"date": "August 2024",
+		"categories": ["personal work"],
+		"tags": []
+	},
+	{
+		"name": "Froggy",
+		"src": "11.23-froggy.png",
+		"date": "July 2024",
+		"categories": ["personal work"],
+		"tags": []
+	},
+	{
+		"name": "Forest Cottage",
+		"src": "08.24-forest cottage.PNG",
+		"date": "June 2024",
+		"categories": ["personal work"],
+		"tags": []
+	},
+	
+	{
+		"name": "Paper Flower Pot",
+		"src": "03.24-paper.png",
+		"date": "March 2023",
+		"categories": ["personal work"],
+		"tags": []
+	},
+
 	{
 		"name": "Dandelion",
 		"src": "dandelion.png",
-		"date": "September 2023",
-		"categories": [],
+		"date": "March 2023",
+		"categories": ["personal work"],
+		"tags": []
+	},
+	{
+		"name": "Sparkling",
+		"src": "08.24-sparkling.png",
+		"date": "February 2024",
+		"categories": ["personal work"],
 		"tags": []
 	},
 	{
 		"name": "Blueberry Pot",
 		"src": "blueberrypot.jpeg",
-		"date": "september 2023",
+		"date": "September 2023",
 		"categories": ["personal work"],
 		"tags": []
 	},
